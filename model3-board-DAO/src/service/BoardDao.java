@@ -15,7 +15,7 @@ public class BoardDao {
 	private final String username = "dongbu";
 	private final String password = "0000";
 
-	///테이블 : board . 기능 : 데이터 수정
+	///테이블 : board . 기능 : 데이터 수정 서경현
 	public int updateBoard(Board board) {
 		int rowCount = 0;
 		Connection connection = null;
